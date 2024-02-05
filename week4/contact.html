@@ -4,39 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Town Of Springfield</title>
+    <title>Town Of Springfield-contact</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="imagse/favicon.ico" type="image/x-icon"> <!--Fav icon-->
-    <!--Css code-->
-    <!--Dafont.com-->
-    <!--Font Squirrl-->
     <link rel="stylesheet" href="css/style.css">
+    </style>
 </head>
 <body>
     <div id = "main">
         <div id = "header">
             <h1>Town Of Springfield</h1>
         </div>
-        <!--Nav rena-->
+        <!--Nav Arena-->
         <div id = "nav">
             <ul>
-                <li class ="nav-list"><a href="#">Home</a></li>
+                <li class ="nav-list"><a href="index.html">Home</a></li>
                 <li class ="nav-list"><a href="about.html">About Springfield</a></li>
                 <li class ="nav-list"><a href="Gallery.html">Pictures of Springfield</a></li>
                 <li class ="nav-list"><a href="events.html">Events</a></li>
-                <li class ="nav-list"><a href="contact.html">Contact Springfield</a></li>
+                <li class ="nav-list"><a href="#">Contact Springfield</a></li>
             </ul>
         </div>
         <!--Contnt area-->
         <div id = "content">
             <!--Content goes here -->
 
-            <h2 id ="section-header">Welcome to the town of Springfield home page</h2>
-            <p class ="section-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quasi harum praesentium modi nisi, et ullam eum facilis cupiditate totam quisquam, ex excepturi quis nesciunt architecto error sunt repellat rem enim.</p>
-            <img class="section-image" src="imagse/springfield.jpg" alt="pic of sf" width = 380px>
+            <h2 id ="section-header">Contact Springfield today</h2>
+            <p class = "section-text" style = "width: 100%;">Fill out your form below with questions on Springfield</p>
             
+            <form action="#" method="get" style ="margin-left: 150px;">
+                <label for="FirstName">Enter first name:</label>
+                <br>
+                <input type="text" name="FirstName" id="FirstName" required>
+                <br>
+                <label for="LastName">Enter last name:</label>
+                <br>
+                <input type="text" name="LastName" id="LastName" required>
+                <br>
+                <label for="Message">Enter Message Below:</label>
+                <br>
+                <textarea name="Message" id="Message" cols="50" rows="10" style="resize: none;"></textarea>
+                <br>
+                
+            </form>
 
 
         </div>
