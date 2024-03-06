@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WK6_Calc</title>
+</head>
+<body>
+    <h1>Week 6 Pay Caclulator</h1>
+    <button id="promptButton">Pay Caculator: click here</button>
+    <script>
+        var dataPromptButton = document.getElementById('promptButton');
+        dataPromptButton.addEventListener('click', dataPrompt);
+        function dataPrompt(){
+        hrPay = Number(prompt("Please enter your hourly pay rate:"))
+        hrHrs = Number(prompt("Please enter hours worked for two week period:"))
+        //
+        var tax = 0.20;
+        var grPay = (hrPay * hrHrs).toFixed(2);
+        var taxPay = (grPay * tax).toFixed(2);
+        var netPay = (grPay - taxPay).toFixed(2);
+        //
+        alert(`Your gross pay rate is ${grPay}\nand with a tax rate of ${taxPay}\nafter reductions your net pay rate is ${netPay}`)
+        console.log(`grossPay: $${grPay}`);
+        console.log(`taxPay: $${taxPay}`);
+        console.log(`netPay: $${netPay}`);
+        }
+    </script>
+
+
+
+        
+    
+    
+</body>
+</html>
