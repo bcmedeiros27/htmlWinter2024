@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Week9 Last Lab</title>
+        
+        <script>
+            window.onload = function(){
+                //alert("Window loaded");
+                document.querySelector('h1').innerHTML = "Page Loaded";
+                var image = 0;
+                var images = [
+                    "Tony_Soprano_Season_1.webp",
+                    "Christopher_Moltisanti.webp",
+                    "Silvio1.webp",
+                    "PaulieWalnuts.webp"
+
+                ];
+                function changeImage(){
+                    image++;
+                    document.querySelector('#site-image').src = `images/${images[image]}`;
+                    if(image >= images.legnth){
+                        image = 0;
+                        document.querySelector('#site-image').src = `images/${images[image]}`;
+                    }
+                    setTimeout(2000, changeImage);
+                }
+
+                document.querySelector('#slideshow-button').addEventListener('click', function(event){
+                    changeImage();
+                    document.querySelector('#slideshow-button').removeEventListener('click', event.target)
+                });
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Week9 review Lab</h1>
+        <img id ='site-image' src="images/Tony_Soprano_Season_1.webp" alt="tony" width="200">
+        <br>
+        <button id ="slideshow-button">start slideshow</button>
+    </body>
+
+
+</html>

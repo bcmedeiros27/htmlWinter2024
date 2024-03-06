@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="text" id="first" name="first">
+    <input type="text" id="last" name="last">
+    <script>
+      var first= document.querySelector(`#first`)
+      var last= document.querySelector(`#last`)
+    
+      first.addEventListener(`blur`, checkIfEmpty)
+      last.addEventListener(`blur`, checkIfEmpty)
+     
+      function checkIfEmpty(event)
+      {
+        if(event.target.value === ``)
+        {
+          console.log(`Please Enter a ${event.target.name} name`)
+        }
+      }
+    </script>
+    
+</body>
+</html>
