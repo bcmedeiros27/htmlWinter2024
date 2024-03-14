@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Week 2 Files</title>
+<style type="text/css">
+	.border{border:1px solid black;}
+</style>
+</head>
+
+<body>
+</body>
+
+<script type="text/javascript">
+	//Use this Array of objects to complete the assignment.
+	var people =[
+		{first:"Jason", last:"Vorhees", credit:"Friday the 13th"},
+		{first:"Freddy", last:"Krueger", credit:"A Nightmare on Elm Street" },
+		{first:"Roger", last:"Rabbit", credit:"Who Framed Roger Rabbit" },
+		{first:"Kevin", last:"McCallister", credit:"Home Alone" },
+		{first:"Godzilla", last:"King of The Monsters", credit:"Godzilla" },
+		{first:"Buzz", last:"Lightyear", credit:"Toy Story" },
+		{first:"Marion", last:"Cobretti", credit:"Cobra" }
+	]
+	for (var i = 0; i < people.length; i++) {
+		var newDiv = document.createElement("div");
+		newDiv.classList.add("border");
+		newDiv.setAttribute("id", "div" + i);
+		var newP = document.createElement("p");
+		newP.textContent = "First Name: " + people[i].first + ", Last Name: " + people[i].last + ", Credit: " + people[i].credit; //goes through the list and creates the names
+		newDiv.appendChild(newP); //appends the paragraph to the div using child
+		document.body.appendChild(newDiv); //appends the div to the body of the document
+	}
+</script>
+	
+
+</html>
