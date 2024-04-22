@@ -1,0 +1,92 @@
+@charset "UTF-8";
+main {
+    flex: auto;
+    display: grid;
+    grid-template-areas:"h h h h h"
+                        "b b b b fr"
+                        "ns ns s s fr"
+                        "f f f f f";
+    
+    background-color: rgb(57, 57, 57);
+    /* Center a Box element */
+    width: 1820px;
+
+
+}
+header{
+    /* header */
+flex: auto;
+grid-area: h;
+background: rgb(7, 7, 7);
+height: 100px;
+}
+#meh{
+    /* meh */
+flex: auto;
+grid-area: b;
+margin-right: 20px;
+background: green;
+background-image: url(images/banner.png);
+background-size:1440px auto;
+background-position-y: -75px;
+/* BANNER */
+height: 388px;
+}
+nav{
+flex: auto;
+/* meh2 */
+/* far right column module */
+background-color: aqua;
+grid-area: fr;
+height: 918px;
+width: 360px;
+}
+#bot{
+    flex: auto;
+    /* meh2 */
+    /* far right column module */
+    background-color: blue;
+    grid-area: s;
+    height: 481px;
+    width: 700px;
+    margin-left: 20px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-right: 20px;
+}
+#sis{
+    /*far left mod jpg img i guess*/
+    display: flex;
+    background-color: rgb(59, 35, 35);
+    grid-area: ns;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 483px;
+    width: 700px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 20px;
+    border-top: 5px solid rgb(187, 9, 8);
+    box-sizing: border-box;
+}
+#sis img{
+    width: 310px;
+    margin-right: 19px;
+
+}
+.fontFam{
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+footer{
+    /* footer */
+flex: auto;
+grid-area: f;
+background: rgb(7, 7, 7);
+height: 100px;
+}
