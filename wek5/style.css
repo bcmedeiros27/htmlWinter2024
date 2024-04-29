@@ -7,7 +7,7 @@ main {
                         "ns ns s s fr"
                         "f f f f f";
     
-    background-color: rgb(57, 57, 57);
+    background-color: rgb(29, 29, 29);
     /* Center a Box element */
     width: 1820px;
 
@@ -19,7 +19,19 @@ flex: auto;
 grid-area: h;
 background: rgb(7, 7, 7);
 height: 100px;
+
 }
+header section{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    height: 50px;
+    width: 478px;
+    margin-left: 30px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
 #meh{
     /* meh */
 flex: auto;
@@ -32,34 +44,65 @@ background-position-y: -75px;
 /* BANNER */
 height: 388px;
 }
-nav{
+#checkNav{
 flex: auto;
-/* meh2 */
-/* far right column module */
-background-color: aqua;
+background: rgb(57, 57, 57);
 grid-area: fr;
+justify-content: space-between;
+flex-direction: row;
 height: 918px;
 width: 360px;
 }
+#checkNav img{
+    width: 325px;
+    margin-top: -48.48px;
+    padding-left: 17px;
+    padding-right: 18px;
+    padding-top: 25px;
+
+}
+
 #bot{
     flex: auto;
     /* meh2 */
     /* far right column module */
-    background-color: blue;
+    background: rgb(57, 57, 57);
     grid-area: s;
+    justify-content: space-between;
+    flex-direction: row;
     height: 481px;
     width: 700px;
     margin-left: 20px;
     margin-top: 24px;
     margin-bottom: 24px;
     margin-right: 20px;
+    border-top: 5px solid rgb(187, 9, 8);
+    box-sizing: border-box;
+
+}
+#bot img{
+    width: 641px;
+    margin-right: 35px;
+    margin-left: 24px;
+    margin-top: 19.5px;
+}
+#bot p{
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 24px;
+    margin-bottom: 19px;
 }
 #sis{
     /*far left mod jpg img i guess*/
     display: flex;
-    background-color: rgb(59, 35, 35);
+    background: rgb(57, 57, 57);
     grid-area: ns;
-    justify-content: space-between;
+    
     flex-direction: row;
     height: 483px;
     width: 700px;
@@ -69,10 +112,32 @@ width: 360px;
     border-top: 5px solid rgb(187, 9, 8);
     box-sizing: border-box;
 }
+#sis section{
+    display: flex;
+    
+    flex-direction: column;
+    height: 483px;
+    width: 310px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-right: 20px;
+}
+span{
+    color: red;}
 #sis img{
     width: 310px;
-    margin-right: 19px;
+    margin-right: 40px;
 
+}
+#sis section{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 483px;
+    width: 310px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-right: 20px;
 }
 .fontFam{
     color: rgb(255, 255, 255);
@@ -80,6 +145,46 @@ width: 360px;
     font-size: 18px;
     font-weight: 400;
     line-height: 27px;
+    letter-spacing: 0%;
+}
+.fontHead{
+    color: rgb(255, 29, 41);
+    font-family: Rock Salt;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-bottom: 5px solid rgb(187, 9, 8);
+    box-sizing: border-box;
+}
+.fontNav{
+    font-family: Roboto;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    width: 275px;
+    height: 385px;
+}
+.fontTitle{
+    color: rgb(187, 9, 8);
+    font-family: Teko;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 69px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.fontFooter
+{
+    color: rgb(188, 188, 188);
+    font-family: Teko;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
     letter-spacing: 0%;
     text-align: left;
 }
@@ -89,4 +194,14 @@ flex: auto;
 grid-area: f;
 background: rgb(7, 7, 7);
 height: 100px;
+}
+footer section{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 17px;
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 21px;
+    margin-bottom: 22px;
 }
