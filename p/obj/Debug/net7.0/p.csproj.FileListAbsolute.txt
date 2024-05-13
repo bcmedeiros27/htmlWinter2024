@@ -1,0 +1,15 @@
+C:\Users\008023796\Desktop\htmlWinter2024\p\bin\Debug\net7.0\p.exe
+C:\Users\008023796\Desktop\htmlWinter2024\p\bin\Debug\net7.0\p.deps.json
+C:\Users\008023796\Desktop\htmlWinter2024\p\bin\Debug\net7.0\p.runtimeconfig.json
+C:\Users\008023796\Desktop\htmlWinter2024\p\bin\Debug\net7.0\p.dll
+C:\Users\008023796\Desktop\htmlWinter2024\p\bin\Debug\net7.0\p.pdb
+C:\Users\008023796\Desktop\htmlWinter2024\p\obj\Debug\net7.0\p.csproj.AssemblyReference.cache
+C:\Users\008023796\Desktop\htmlWinter2024\p\obj\Debug\net7.0\p.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\008023796\Desktop\htmlWinter2024\p\obj\Debug\net7.0\p.AssemblyInfoInputs.cache
+C:\Users\008023796\Desktop\htmlWinter2024\p\obj\Debug\net7.0\p.AssemblyInfo.cs
+C:\Users\008023796\Desktop\htmlWinter2024\p\obj\Debug\net7.0\p.csproj.CoreCompileInputs.cache
+C:\Users\008023796\Desktop\htmlWinter2024\p\obj\Debug\net7.0\p.dll
+C:\Users\008023796\Desktop\htmlWinter2024\p\obj\Debug\net7.0\refint\p.dll
+C:\Users\008023796\Desktop\htmlWinter2024\p\obj\Debug\net7.0\p.pdb
+C:\Users\008023796\Desktop\htmlWinter2024\p\obj\Debug\net7.0\p.genruntimeconfig.cache
+C:\Users\008023796\Desktop\htmlWinter2024\p\obj\Debug\net7.0\ref\p.dll
